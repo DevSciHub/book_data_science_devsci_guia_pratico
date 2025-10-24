@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "Introdução à Ciências de Dados"
+  author: "Bruno Oliveira"
+  favicon: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+  date: "22/10/2025"
+  sidebar: 
+    background: "#F0F6FF"
+    logo: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+    search: true
+  image: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+  chapters:
+    - index.qmd
+    - summary.qmd
+    - intro.qmd
+    - aula_01.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: minty
+    code-fold: false
+    css: custom.css
+    backgroundcolor: "#F0F6FF"
+
+editor: visual
+

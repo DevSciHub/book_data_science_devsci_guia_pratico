@@ -1,0 +1,55 @@
+---
+title: "Preparando ambiente"
+---
+
+```{r, include=FALSE}
+library(dplyr)
+```
+
+## Como baixar o R Base?
+
+1º Baixar R Base:
+
+O R Base é o conjunto fundamental de funcionalidades e estruturas básicas da linguagem de programação R, usado para análise estatística e visualização de dados.
+
+**Click para baixar:** <https://cran.r-project.org/bin/windows/base/>
+
+Você será direcionada(o) para esta página a seguir. Basta fazer o download.
+
+![](/img/r_base_01.png){fig-align="center"}
+
+Após o download, você terá acesso a seguinte interface.
+
+![](/img/r_base_02.png){fig-align="center"}
+
+2º Baixar RStudio:
+
+O RStudio é um ambiente de desenvolvimento integrado (IDE) popular para a linguagem de programação R, que oferece uma interface amigável para escrever código, visualizar dados, criar gráficos e facilitar a análise estatística.
+
+**Click para baixar:** <https://posit.co/download/rstudio-desktop/>
+
+![](/img/r_studio_01.png){fig-align="center"}
+
+Após o download, você terá acesso a seguinte interface. Nela faremos 100% dos nossos scripts, sem dúvida, será nossa principal ferramenta.
+
+![](/img/r_studio_00.png){fig-align="center"}
+
+3º Baixar Google Colab:
+
+O Google Colab é uma plataforma de nuvem gratuita oferecida pelo Google para executar e colaborar em notebooks Jupyter e ainda é possível utilizar a linguagem R por trás, o mais interessante é a não necessidade de possuir nenhum dos programas instalados em sua máquina.
+
+Para isso, basta possuir uma conta Gmail e acessae a IDLE através do Google Drive. Para você que não possui uma máquina com memória e processamento é uma excelente alternativa.
+
+Veja abaixo.
+
+![](/img/google_colab_01.png){fig-align="center"}
+
+## Como baixar o Python?
+
+O Python é uma linguagem de programação de alto nível, interpretada, versátil e de fácil aprendizado, amplamente usada para desenvolver aplicativos, websites, análises de dados, automações e muito mais. É conhecida por sua sintaxe clara e legibilidade, o que a torna popular entre programadores.
+
+**Click para baixar:** <https://www.python.org/downloads/>
+
+![](img/python_01.png){fig-align="center"}
+
+**Agradeço desde já a presença de todos. Até no nosso próximo encontro!**

@@ -1,0 +1,3 @@
+# Prefácio {.unnumbered}
+
+Esse livro tem por objetivo transcrever aulas gravadas de Introdução à Ciências de Dados.

@@ -1,0 +1,130 @@
+---
+title: "Nivelamento"
+---
+
+## Criar projeto
+
+Na linguagem R é possível criar documentos nas extensões .qmd (Quarto), .rmd (Rmarkdown) e .R. As duas primeiras extensões são frenquentemente utilizadas para criação de relatório, por exemplo, esta aula foi criada em um documento .qmd (Quarto). Interessante, não?
+
+Para criar nosso projeto, basta seguir os passos abaixo:
+
+**1º Passo:** no canto superior esquerdo, click em **New Project**
+
+![](img/aula01_img1.png){fig-align="center"}
+
+**2º Passo:** click em **New Directory**
+
+![](img/aula01_img2.png){fig-align="center" width="363"}
+
+**3º Passo:** para finalizar, basta clicar em **Quarto Website**
+
+![](img/aula01_img3.png){fig-align="center" width="369"}
+
+## Como baixar e instalar bibliotecas em R?
+
+Para programar em Python no RStudio, vamos precisar baixar a biblioteca **reticulate** e a **dplyr** para acessar algumas funcionalidades básicas. Veja abaixo:
+
+**1º Passo:** Baixar a biblioteca com a função **install.packages("dplyr")** e **install.packages("reticulate")** - não esqueça das aspas;
+
+**2º Passo:** Carregar a biblioteca com a função **library(dplyr)** e **library(reticulate)** - não há necessidade de colocar aspas.
+
+[**OBS.:** uma vez que a biblioteca for instalada não há necessidade de reexecutar comando install.packages(). No entanto, será sempre necessário carregar a biblioteca todas as vezes que for a utilizar com o comando library().]{style="font-size: 12px;"}
+
+Para mais informação de como instalar a biblioteca reticulate acesse:
+
+Youtube: <https://www.youtube.com/watch?v=FnpKTXkmBRo&t=1058s>
+
+## Como baixar e instalar bibliotecas em Python?
+
+**1º Passo:** Baixar a biblioteca com o comando **!pip install numpy** - não há necessidade de colocar aspas;
+
+**2º Passo:** Carregar a biblioteca com a função **import numpy** - não há necessidade de colocar aspas.
+
+## Operações Básicas
+
+Operações aritméticas básicas são: adição, subtração, multiplicação, divisão e exponenciação.
+
+[**OBS.:** ordem aritmética parênteses, exponenciação, multiplicação/divisão e adição/subtração.]{style="font-size: 12px;"}
+
+### Operações Básicas aplicadas em Python
+
+```{python, echo=TRUE, results='asis'}
+# Definir variáveis
+a = 20
+b = 5
+
+adicao = a + b
+print(f"Resultado da adição: {adicao}.", "\n", "Classe:", type(adicao))
+subtracao = a - b
+print(f"Resultado da subtração: {subtracao}.", "\n")
+multiplicacao = a * b
+print(f"Resultado da multiplicação: {multiplicacao}.", "\n")
+divisao = a / b
+print(f"Resultado da divisão: {divisao}.")
+exponenciacao = a**b
+print(f"Resultado da exponenciação: {exponenciacao}.")
+```
+
+### Operações Básicas aplicadas em R
+
+```{r, message=FALSE, warning=FALSE}
+library(dplyr)
+```
+
+```{r, echo=TRUE, results='asis'}
+# Definir variáveis
+a = 20
+b = 5
+
+adicao <- a + b
+cat("Resultado da adição: ", adicao, ".", "\n", "Classe:", class(adicao), "\n")
+subtracao <- a - b
+cat("Resultado da subtração: ", subtracao, ".", "\n")
+multiplicacao <- a * b
+cat("Resultado da multiplicação: ", multiplicacao, ".", "\n")
+divisao <- a / b
+cat("Resultado da divisão: ", divisao, ".", "\n")
+exponenciacao <- a^b
+cat("Resultado da exponenciação: ", exponenciacao, ".", "\n")
+```
+
+### Exemplo - Calcular Valor Futuro
+
+Vamos calcular o Valor Presente de um título qualquer em jutos compostos.
+
+**Problema:** qual o Valor Futuro do Título A sabendo que seu Valor Presente igual a R\$ 1.000,00, Selic igual a 12,75% a.a. eo prazo igual a 2 anos.
+
+**Fórmula:**
+
+$${VF = VP(1 + i)^n}$$
+
+Onde:
+
+VP: Valor Presente;
+
+VF: Valor Futuro;
+
+i: Taxa;
+
+n = Prazo.
+
+**Resolução:**
+
+```{r, echo=TRUE, results='asis'}
+# Definir as variáveis
+VP = 1000
+i = 0.1275
+n = 2
+
+# Cálculo
+VF <- VP*(1+i)^n
+cat("O Valor Futuro do Título A é igual a", "R$", VF, "\n")
+```
+
+::: callout-note
+**F-strings:** em Python, também conhecidas como formatted string literals (literais de strings formatadas), são uma maneira conveniente de formatar strings de forma mais legível e eficiente. Introduzidas na versão 3.6 do Python, as f-strings permitem que você inclua expressões Python dentro de strings, tornando a interpolação de valores em strings mais simples e legível. Para criar uma f-string, você precisa adicionar o prefixo f ou F antes da string e, dentro dela, colocar as expressões Python entre chaves {}. Essas expressões serão avaliadas e substituídas pelo seu valor na string resultante.
+:::
+
+::: callout-note
+**Adicionar comentários:** tanto em Python quanto em R para adicionar comentários entre linhas executáveis, basta utilizar "\#" antes da sentença.
+:::
