@@ -1,0 +1,4 @@
+Referência:
+
+https://kevinheavey.github.io/modern-polars/indexing.html#slicing-vs-selecting
+https://github.com/kevinheavey/modern-polars/blob/master/book/indexing.qmd
