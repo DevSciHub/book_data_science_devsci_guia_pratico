@@ -2,21 +2,21 @@ project:
   type: book
 
 book:
-  title: "Introdução à Ciências de Dados"
+  page-footer: "![](img/Logo_Grande_DevSci_Sem_Fundo.png){width=15%} <br> DevSci Space <br>"
+  title: "Guia Prático de Configuração"
+  subtitle: "Introdução à Ciências de Dados" 
   author: "Bruno Oliveira"
-  favicon: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+  favicon: img/Logo_Grande_DevSci_Sem_Fundo.png
   date: "22/10/2025"
   sidebar: 
     background: "#F0F6FF"
-    logo: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+    logo: img/capa_guia_pratico.png
     search: true
-  image: img/Logo_Grande_2x_DevSci_Sem_Fundo.png
+  image: img/capa_guia_pratico.png
   chapters:
     - index.qmd
-    - summary.qmd
     - intro.qmd
-    - aula_01.qmd
-    - references.qmd
+    - config_positron.qmd
 
 bibliography: references.bib
 

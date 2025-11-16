@@ -16,23 +16,21 @@ O R Base é o conjunto fundamental de funcionalidades e estruturas básicas da l
 
 Você será direcionada(o) para esta página a seguir. Basta fazer o download.
 
-![](/img/r_base_01.png){fig-align="center"}
+![](/video/r_base.mp4){fig-align="center"}
 
-Após o download, você terá acesso a seguinte interface.
+Depois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, **recomendo que aceite as configuações básicas sugeridas no momento da intalação**.
 
-![](/img/r_base_02.png){fig-align="center"}
+2º Baixar Positron:
 
-2º Baixar RStudio:
+O Positron é um ambiente de desenvolvimento integrado (IDE) popular para a linguagem de programação **R e Python**, que oferece uma **interface amigável para escrever código, visualizar dados, criar gráficos e facilitar a análise estatística**.
 
-O RStudio é um ambiente de desenvolvimento integrado (IDE) popular para a linguagem de programação R, que oferece uma interface amigável para escrever código, visualizar dados, criar gráficos e facilitar a análise estatística.
+**Click para baixar:** <https://positron.posit.co/download.html>
 
-**Click para baixar:** <https://posit.co/download/rstudio-desktop/>
-
-![](/img/r_studio_01.png){fig-align="center"}
+![](/video/positron.mp4){fig-align="center"}
 
 Após o download, você terá acesso a seguinte interface. Nela faremos 100% dos nossos scripts, sem dúvida, será nossa principal ferramenta.
 
-![](/img/r_studio_00.png){fig-align="center"}
+Depois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, **recomendo que aceite as configuações básicas sugeridas no momento da intalação**.
 
 3º Baixar Google Colab:
 
@@ -40,9 +38,9 @@ O Google Colab é uma plataforma de nuvem gratuita oferecida pelo Google para ex
 
 Para isso, basta possuir uma conta Gmail e acessae a IDLE através do Google Drive. Para você que não possui uma máquina com memória e processamento é uma excelente alternativa.
 
-Veja abaixo.
+Veja abaixo o passo a passo:
 
-![](/img/google_colab_01.png){fig-align="center"}
+![](/video/google_colab.mp4){fig-align="center"}
 
 ## Como baixar o Python?
 
@@ -50,6 +48,8 @@ O Python é uma linguagem de programação de alto nível, interpretada, versát
 
 **Click para baixar:** <https://www.python.org/downloads/>
 
-![](img/python_01.png){fig-align="center"}
+Depois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, **recomendo que aceite as configuações básicas sugeridas no momento da intalação**.
+
+![](video/python_base.mp4){fig-align="center"}
 
 **Agradeço desde já a presença de todos. Até no nosso próximo encontro!**

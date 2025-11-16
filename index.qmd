@@ -1,3 +1,5 @@
 # Prefácio {.unnumbered}
 
-Esse livro tem por objetivo transcrever aulas gravadas de Introdução à Ciências de Dados.
+![](img/capa_guia_pratico.png)
+
+Esse livro tem por objetivo auxiliar os alunos na preparação do ambiente para inicialização na jornada no aprendizado na linguagem R e Python.

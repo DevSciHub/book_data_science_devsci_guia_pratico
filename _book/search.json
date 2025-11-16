@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Introdução à Ciências de Dados",
+    "title": "Guia Prático de Configuração",
     "section": "",
-    "text": "Prefácio\nEsse livro tem por objetivo transcrever aulas gravadas de Introdução à Ciências de Dados.",
+    "text": "Prefácio\n\nEsse livro tem por objetivo auxiliar os alunos na preparação do ambiente para inicialização na jornada no aprendizado na linguagem R e Python.",
     "crumbs": [
       "Prefácio"
     ]
@@ -12,81 +12,61 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "2  Preparando ambiente",
+    "title": "1  Preparando ambiente",
     "section": "",
-    "text": "2.1 Como baixar o R Base?\n1º Baixar R Base:\nO R Base é o conjunto fundamental de funcionalidades e estruturas básicas da linguagem de programação R, usado para análise estatística e visualização de dados.\nClick para baixar: https://cran.r-project.org/bin/windows/base/\nVocê será direcionada(o) para esta página a seguir. Basta fazer o download.\nApós o download, você terá acesso a seguinte interface.\n2º Baixar RStudio:\nO RStudio é um ambiente de desenvolvimento integrado (IDE) popular para a linguagem de programação R, que oferece uma interface amigável para escrever código, visualizar dados, criar gráficos e facilitar a análise estatística.\nClick para baixar: https://posit.co/download/rstudio-desktop/\nApós o download, você terá acesso a seguinte interface. Nela faremos 100% dos nossos scripts, sem dúvida, será nossa principal ferramenta.\n3º Baixar Google Colab:\nO Google Colab é uma plataforma de nuvem gratuita oferecida pelo Google para executar e colaborar em notebooks Jupyter e ainda é possível utilizar a linguagem R por trás, o mais interessante é a não necessidade de possuir nenhum dos programas instalados em sua máquina.\nPara isso, basta possuir uma conta Gmail e acessae a IDLE através do Google Drive. Para você que não possui uma máquina com memória e processamento é uma excelente alternativa.\nVeja abaixo.",
+    "text": "1.1 Como baixar o R Base?\n1º Baixar R Base:\nO R Base é o conjunto fundamental de funcionalidades e estruturas básicas da linguagem de programação R, usado para análise estatística e visualização de dados.\nClick para baixar: https://cran.r-project.org/bin/windows/base/\nVocê será direcionada(o) para esta página a seguir. Basta fazer o download.\nDepois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, recomendo que aceite as configuações básicas sugeridas no momento da intalação.\n2º Baixar Positron:\nO Positron é um ambiente de desenvolvimento integrado (IDE) popular para a linguagem de programação R e Python, que oferece uma interface amigável para escrever código, visualizar dados, criar gráficos e facilitar a análise estatística.\nClick para baixar: https://positron.posit.co/download.html\nApós o download, você terá acesso a seguinte interface. Nela faremos 100% dos nossos scripts, sem dúvida, será nossa principal ferramenta.\nDepois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, recomendo que aceite as configuações básicas sugeridas no momento da intalação.\n3º Baixar Google Colab:\nO Google Colab é uma plataforma de nuvem gratuita oferecida pelo Google para executar e colaborar em notebooks Jupyter e ainda é possível utilizar a linguagem R por trás, o mais interessante é a não necessidade de possuir nenhum dos programas instalados em sua máquina.\nPara isso, basta possuir uma conta Gmail e acessae a IDLE através do Google Drive. Para você que não possui uma máquina com memória e processamento é uma excelente alternativa.\nVeja abaixo o passo a passo:",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preparando ambiente</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preparando ambiente</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "1  Sumário",
+    "objectID": "intro.html#como-baixar-o-r-base",
+    "href": "intro.html#como-baixar-o-r-base",
+    "title": "1  Preparando ambiente",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Video\n\n\n\n\n\n\n\n\nVideo\n\n\n\n\n\n\n\n\n\n\nVideo",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sumário</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preparando ambiente</span>"
     ]
   },
   {
     "objectID": "intro.html#como-baixar-o-python",
     "href": "intro.html#como-baixar-o-python",
-    "title": "2  Preparando ambiente",
-    "section": "2.2 Como baixar o Python?",
-    "text": "2.2 Como baixar o Python?\nO Python é uma linguagem de programação de alto nível, interpretada, versátil e de fácil aprendizado, amplamente usada para desenvolver aplicativos, websites, análises de dados, automações e muito mais. É conhecida por sua sintaxe clara e legibilidade, o que a torna popular entre programadores.\nClick para baixar: https://www.python.org/downloads/\n\n\n\n\n\nAgradeço desde já a presença de todos. Até no nosso próximo encontro!",
+    "title": "1  Preparando ambiente",
+    "section": "1.2 Como baixar o Python?",
+    "text": "1.2 Como baixar o Python?\nO Python é uma linguagem de programação de alto nível, interpretada, versátil e de fácil aprendizado, amplamente usada para desenvolver aplicativos, websites, análises de dados, automações e muito mais. É conhecida por sua sintaxe clara e legibilidade, o que a torna popular entre programadores.\nClick para baixar: https://www.python.org/downloads/\nDepois do software baixado, basta com dois cliques iniciar o processo de instalação. Para maior facilidade, recomendo que aceite as configuações básicas sugeridas no momento da intalação.\n\n\nVideo\n\n\nAgradeço desde já a presença de todos. Até no nosso próximo encontro!",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preparando ambiente</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preparando ambiente</span>"
     ]
   },
   {
-    "objectID": "aula_01.html",
-    "href": "aula_01.html",
-    "title": "3  Nivelamento",
+    "objectID": "config_positron.html",
+    "href": "config_positron.html",
+    "title": "2  Configurando o Positron",
     "section": "",
-    "text": "3.1 Criar projeto\nNa linguagem R é possível criar documentos nas extensões .qmd (Quarto), .rmd (Rmarkdown) e .R. As duas primeiras extensões são frenquentemente utilizadas para criação de relatório, por exemplo, esta aula foi criada em um documento .qmd (Quarto). Interessante, não?\nPara criar nosso projeto, basta seguir os passos abaixo:\n1º Passo: no canto superior esquerdo, click em New Project\n2º Passo: click em New Directory\n3º Passo: para finalizar, basta clicar em Quarto Website",
+    "text": "2.1 Configuração básica\nSegue abaixo as configurações básicas.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Nivelamento</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Configurando o Positron</span>"
     ]
   },
   {
-    "objectID": "aula_01.html#como-baixar-e-instalar-bibliotecas-em-r",
-    "href": "aula_01.html#como-baixar-e-instalar-bibliotecas-em-r",
-    "title": "3  Nivelamento",
-    "section": "3.2 Como baixar e instalar bibliotecas em R?",
-    "text": "3.2 Como baixar e instalar bibliotecas em R?\nPara programar em Python no RStudio, vamos precisar baixar a biblioteca reticulate e a dplyr para acessar algumas funcionalidades básicas. Veja abaixo:\n1º Passo: Baixar a biblioteca com a função install.packages(“dplyr”) e install.packages(“reticulate”) - não esqueça das aspas;\n2º Passo: Carregar a biblioteca com a função library(dplyr) e library(reticulate) - não há necessidade de colocar aspas.\nOBS.: uma vez que a biblioteca for instalada não há necessidade de reexecutar comando install.packages(). No entanto, será sempre necessário carregar a biblioteca todas as vezes que for a utilizar com o comando library().\nPara mais informação de como instalar a biblioteca reticulate acesse:\nYoutube: https://www.youtube.com/watch?v=FnpKTXkmBRo&t=1058s",
+    "objectID": "config_positron.html#configuração-básica",
+    "href": "config_positron.html#configuração-básica",
+    "title": "2  Configurando o Positron",
+    "section": "",
+    "text": "Video",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Nivelamento</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Configurando o Positron</span>"
     ]
   },
   {
-    "objectID": "aula_01.html#como-baixar-e-instalar-bibliotecas-em-python",
-    "href": "aula_01.html#como-baixar-e-instalar-bibliotecas-em-python",
-    "title": "3  Nivelamento",
-    "section": "3.3 Como baixar e instalar bibliotecas em Python?",
-    "text": "3.3 Como baixar e instalar bibliotecas em Python?\n1º Passo: Baixar a biblioteca com o comando !pip install numpy - não há necessidade de colocar aspas;\n2º Passo: Carregar a biblioteca com a função import numpy - não há necessidade de colocar aspas.",
+    "objectID": "config_positron.html#criar-projeto",
+    "href": "config_positron.html#criar-projeto",
+    "title": "2  Configurando o Positron",
+    "section": "2.2 Criar projeto",
+    "text": "2.2 Criar projeto\nPara criar nosso projeto, basta seguir os passos abaixo.\n\n\nVideo",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Nivelamento</span>"
-    ]
-  },
-  {
-    "objectID": "aula_01.html#operações-básicas",
-    "href": "aula_01.html#operações-básicas",
-    "title": "3  Nivelamento",
-    "section": "3.4 Operações Básicas",
-    "text": "3.4 Operações Básicas\nOperações aritméticas básicas são: adição, subtração, multiplicação, divisão e exponenciação.\nOBS.: ordem aritmética parênteses, exponenciação, multiplicação/divisão e adição/subtração.\n\n3.4.1 Operações Básicas aplicadas em Python\n# Definir variáveis\na = 20\nb = 5\n\nadicao = a + b\nprint(f\"Resultado da adição: {adicao}.\", \"\\n\", \"Classe:\", type(adicao))\nResultado da adição: 25. Classe: &lt;class ‘int’&gt;\nsubtracao = a - b\nprint(f\"Resultado da subtração: {subtracao}.\", \"\\n\")\nResultado da subtração: 15.\nmultiplicacao = a * b\nprint(f\"Resultado da multiplicação: {multiplicacao}.\", \"\\n\")\nResultado da multiplicação: 100.\ndivisao = a / b\nprint(f\"Resultado da divisão: {divisao}.\")\nResultado da divisão: 4.0.\nexponenciacao = a**b\nprint(f\"Resultado da exponenciação: {exponenciacao}.\")\nResultado da exponenciação: 3200000.\n\n\n3.4.2 Operações Básicas aplicadas em R\n\nlibrary(dplyr)\n\n# Definir variáveis\na = 20\nb = 5\n\nadicao &lt;- a + b\ncat(\"Resultado da adição: \", adicao, \".\", \"\\n\", \"Classe:\", class(adicao), \"\\n\")\nResultado da adição: 25 . Classe: numeric\nsubtracao &lt;- a - b\ncat(\"Resultado da subtração: \", subtracao, \".\", \"\\n\")\nResultado da subtração: 15 .\nmultiplicacao &lt;- a * b\ncat(\"Resultado da multiplicação: \", multiplicacao, \".\", \"\\n\")\nResultado da multiplicação: 100 .\ndivisao &lt;- a / b\ncat(\"Resultado da divisão: \", divisao, \".\", \"\\n\")\nResultado da divisão: 4 .\nexponenciacao &lt;- a^b\ncat(\"Resultado da exponenciação: \", exponenciacao, \".\", \"\\n\")\nResultado da exponenciação: 3200000 .\n\n\n3.4.3 Exemplo - Calcular Valor Futuro\nVamos calcular o Valor Presente de um título qualquer em jutos compostos.\nProblema: qual o Valor Futuro do Título A sabendo que seu Valor Presente igual a R$ 1.000,00, Selic igual a 12,75% a.a. eo prazo igual a 2 anos.\nFórmula:\n\\[{VF = VP(1 + i)^n}\\]\nOnde:\nVP: Valor Presente;\nVF: Valor Futuro;\ni: Taxa;\nn = Prazo.\nResolução:\n# Definir as variáveis\nVP = 1000\ni = 0.1275\nn = 2\n\n# Cálculo\nVF &lt;- VP*(1+i)^n\ncat(\"O Valor Futuro do Título A é igual a\", \"R$\", VF, \"\\n\")\nO Valor Futuro do Título A é igual a R$ 1271.256\n\n\n\n\n\n\nNote\n\n\n\nF-strings: em Python, também conhecidas como formatted string literals (literais de strings formatadas), são uma maneira conveniente de formatar strings de forma mais legível e eficiente. Introduzidas na versão 3.6 do Python, as f-strings permitem que você inclua expressões Python dentro de strings, tornando a interpolação de valores em strings mais simples e legível. Para criar uma f-string, você precisa adicionar o prefixo f ou F antes da string e, dentro dela, colocar as expressões Python entre chaves {}. Essas expressões serão avaliadas e substituídas pelo seu valor na string resultante.\n\n\n\n\n\n\n\n\nNote\n\n\n\nAdicionar comentários: tanto em Python quanto em R para adicionar comentários entre linhas executáveis, basta utilizar “#” antes da sentença.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Nivelamento</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Configurando o Positron</span>"
     ]
   }
 ]

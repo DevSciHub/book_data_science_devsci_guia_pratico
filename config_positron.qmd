@@ -1,0 +1,15 @@
+---
+title: "Configurando o Positron"
+---
+
+## Configuração básica
+
+Segue abaixo as configurações básicas.
+
+![](/video/positron_02.mp4){fig-align="center"}
+
+## Criar projeto
+
+Para criar nosso projeto, basta seguir os passos abaixo.
+
+![](/video/positron_03.mp4){fig-align="center"}
