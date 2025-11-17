@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: e104c66a-0592-4f62-9bf7-94e6c543513a
+      url: https://effortless-tanuki-69db04.netlify.app
