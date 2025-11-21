@@ -68,5 +68,15 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Configurando o Positron</span>"
     ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Oliveira, B. (2025). Guia Prático de Configuração: Introdução à Ciências de Dados. DevSci Space. https://doi.org/10.5072/zenodo.1234567",
+    "crumbs": [
+      "References"
+    ]
   }
 ]

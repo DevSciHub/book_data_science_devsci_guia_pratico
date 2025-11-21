@@ -1,4 +1,7 @@
 # References {.unnumbered}
 
-::: {#refs}
+:::: {#refs}
+::: citation-box
+<p><strong>Oliveira, B. (2025).</strong> Guia Prático de Configuração: Introdução à Ciências de Dados. DevSci Space. https://doi.org/10.5072/zenodo.1234567</p>
 :::
+::::

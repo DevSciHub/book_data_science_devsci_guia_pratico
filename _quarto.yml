@@ -7,7 +7,7 @@ book:
   subtitle: "Introdução à Ciências de Dados" 
   author: "Bruno Oliveira"
   favicon: img/Logo_Grande_DevSci_Sem_Fundo.png
-  date: "22/10/2025"
+  date: "2025-10-22"
   sidebar: 
     background: "#F0F6FF"
     logo: img/capa_guia_pratico.png
@@ -17,6 +17,10 @@ book:
     - index.qmd
     - intro.qmd
     - config_positron.qmd
+    - references.qmd
+
+doi: "10.5281/zenodo.17671593"
+url: "https://doi.org/10.5281/zenodo.17671592"
 
 bibliography: references.bib
 

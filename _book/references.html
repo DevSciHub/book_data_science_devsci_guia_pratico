@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Configurando o Positron – Guia Prático de Configuração</title>
+<title>References – Guia Prático de Configuração</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
-<link href="./intro.html" rel="prev">
+<link href="./config_positron.html" rel="prev">
 <link href="./img/Logo_Grande_DevSci_Sem_Fundo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./config_positron.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Configurando o Positron</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -126,13 +144,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./config_positron.html" class="sidebar-item-text sidebar-link active">
+  <a href="./config_positron.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Configurando o Positron</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
+  <a href="./references.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -141,22 +159,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#configuração-básica" id="toc-configuração-básica" class="nav-link active" data-scroll-target="#configuração-básica"><span class="header-section-number">2.1</span> Configuração básica</a></li>
-  <li><a href="#criar-projeto" id="toc-criar-projeto" class="nav-link" data-scroll-target="#criar-projeto"><span class="header-section-number">2.2</span> Criar projeto</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Configurando o Positron</span></h1>
+<h1 class="title">References</h1>
 </div>
 
 
@@ -173,26 +184,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="configuração-básica" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="configuração-básica"><span class="header-section-number">2.1</span> Configuração básica</h2>
-<p>Segue abaixo as configurações básicas.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><video src=".\video/positron_02.mp4" class="img-fluid quarto-figure quarto-figure-center" controls=""><a href=".\video/positron_02.mp4">Video</a></video></p>
-</figure>
+<div id="refs" role="list">
+<div class="citation-box">
+<p>
+<strong>Oliveira, B. (2025).</strong> Guia Prático de Configuração: Introdução à Ciências de Dados. DevSci Space. https://doi.org/10.5072/zenodo.1234567
+</p>
 </div>
-</section>
-<section id="criar-projeto" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="criar-projeto"><span class="header-section-number">2.2</span> Criar projeto</h2>
-<p>Para criar nosso projeto, basta seguir os passos abaixo.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><video src=".\video/positron_03.mp4" class="img-fluid quarto-figure quarto-figure-center" controls=""><a href=".\video/positron_03.mp4">Video</a></video></p>
-</figure>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -596,14 +596,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link" aria-label="Preparando ambiente">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preparando ambiente</span></span>
+      <a href="./config_positron.html" class="pagination-link" aria-label="Configurando o Positron">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Configurando o Positron</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
