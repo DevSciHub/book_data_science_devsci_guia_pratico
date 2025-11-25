@@ -1,0 +1,36 @@
+project:
+  type: book
+
+book:
+  page-footer: "![](img/Logo_Grande_DevSci_Sem_Fundo.png){width=15%} <br> DevSci Space <br>"
+  title: "Guia Prático de Configuração"
+  subtitle: "Introdução à Ciências de Dados" 
+  author: "Bruno Oliveira"
+  favicon: img/Logo_Grande_DevSci_Sem_Fundo.png
+  date: "2025-10-22"
+  sidebar: 
+    background: "#F0F6FF"
+    logo: img/capa_guia_pratico.png
+    search: true
+  image: img/capa_guia_pratico.png
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - config_positron.qmd
+    - references.qmd
+
+doi: "10.5281/zenodo.17671593"
+url: "https://doi.org/10.5281/zenodo.17671592"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: minty
+    code-fold: false
+    css: custom.css
+    backgroundcolor: "#F0F6FF"
+
+editor: visual
+
